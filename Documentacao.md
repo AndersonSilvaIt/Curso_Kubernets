@@ -8,3 +8,5 @@
 
 `kubectl pods -A` --> Verifica as aplicações que estão rodando
  
+`POD` --> O kubernets pode gerar vários PODs que ficam dentro de um service, o `Service` geraum DNS único pra a plicação que for consumir,
+dentro dele, ele resolve os IPs e portas de acesso aos PODs.
